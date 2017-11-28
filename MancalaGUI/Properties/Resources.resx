@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rockBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rockBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstructionsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InstructionsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rockRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rockRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoPlayerButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TwoPlayerButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rockYellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rockYellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rockPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rockPurple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="closeRules" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="quitMenuButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quitMenuButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gameRulesButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gameRulesButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rules" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rules.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rockGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rockGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soundButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CupSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CupSelected.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GameStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameStart.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PointEarnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PointEarnt.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soundOffButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\soundoffbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
